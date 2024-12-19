@@ -1,5 +1,5 @@
 .custom-back{
-    background: url(/public/Banner-1.jpg);
+    background: url(./public/Banner-1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
