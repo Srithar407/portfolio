@@ -1,0 +1,27 @@
+.custom-back{
+    background: url(/public/Banner-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.icon div{
+    width: 20px;
+    height: 3px;
+    margin-bottom: 5px;
+    background-color: rgb(11, 11, 11);
+}
+@media all and (max-width:648px){
+    .menu{
+        top: -100%;
+        right: 3%;
+        transition: 2s;
+        color: rgb(27, 116, 206);
+    }
+    .show{
+        top: 10%;
+        transition: 2s;
+    }
+    .icon{
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Srithar's portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <!-- navigation bar -->
+    <section class="bg-slate-100 sticky top-0">
+        <nav class="flex p-4">
+            <div class="flex-1 text-xl font-bold">
+                <h3>Srithar.K_</h3>
+            </div>
+            <ul class="font-medium max-sm:text-right max-sm:fixed menu">
+                <li class="inline-block ml-4 hover:text-blue-500 max-sm:block"><a href="#">Home</a></li>
+                <li class="inline-block ml-4 hover:text-blue-500 max-sm:block"><a href="#about">About Me</a></li>
+                <li class="inline-block ml-4 hover:text-blue-500 max-sm:block"><a href="#skills">Skills</a></li>
+                <li class="inline-block ml-4 hover:text-blue-500 max-sm:block"><a href="#experience">Experience</a></li>
+                <li class="inline-block ml-4 hover:text-blue-500 max-sm:block"><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="icon hidden max-sm:block">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </nav>
+    </section>
+    <!-- Home section -->
+     <section class="w-full h-screen custom-back flex items-center">
+        <div class="container text-emerald-100 mx-auto text-center ">
+            <h2 class="text-3xl font-medium">SRITHAR . K</h2>
+            <p class="text-xl">Fullstack Web Developer !</p>
+            <p>Java | Javascript | React | Mysql | HTML | Css | Tailwindcss | Spring boot | Hibernate | JDBC | Git & GitHub</p>
+        </div>
+     </section>
+     <!-- About Section -->
+     <section class="container mx-auto items-center mt-4 flex md:pl-2 max-sm:flex-col" id="about">
+        <div class="w-1/2 ">
+            <h2 class="font-bold text-2xl my-2">About</h2>
+            <p class="font-normal">Hello! I'm Srithar, a full-stack web developer with a passion for crafting dynamic and efficient web applications. Recently, I contributed to a college administration app, where I worked with a small team to manage student information and enhance academic literacy. My role involved both front-end and back-end development, utilizing technologies like Spring MVC, JDBC, and API integration.
+                <br>
+                <p>&nbsp;</p>
+                I enjoy tackling complex challenges and delivering clean, well-structured code. I’m always eager to learn new technologies and improve my skills, aiming to build seamless user experiences and robust solutions.</p>
+        </div>
+        <div class="w-1/2 max-sm:mt-4">
+            <img src="/public/Srithar.jpg" class="w-4/5 h-full mx-auto" height="400px" alt="profile">
+        </div>
+     </section>
+     <!-- project section -->
+      <section class="container mx-auto mt-12">
+        <h2 class="text-3xl font-bold text-center my-4">PROJECTS</h2>
+        <div class="container flex justify-center my-2 max-md:flex-wrap">
+            <div class="w-[400px] h-[450px] bg-gray-200 mx-4 rounded-lg m-2">
+                <div >
+                    <img src="/public/college.jpg" class="w-full h-[200px] rounded hover:cursor-pointer" alt="project-img" id="plink-1">
+                </div>
+                <div>
+                    <a href="https://github.com/Srithar407/Final_year_project" target="_blank" id="plink_1">
+                        <h2 class="text-2xl font-medium p-2 text-gray-800">College Administration Web Application</h2>
+                    </a>
+                    <p class="text-gray-700 p-2 text-lg">Created a web app to manage student and faculty data, track attendance, handle course registration, and process fees. Built with Java Spring MVC, JDBC, and a responsive design for smooth user experience.</p>
+                </div>
+            </div>
+            <div class="w-[400px] h-[450px] bg-gray-200 mx-4 rounded-lg m-2">
+                <div >
+                    <img src="/public/chat_bot.jpg" class="w-full h-[200px] rounded hover:cursor-pointer" alt="project-img" id="plink-2">
+                </div>
+                <div>
+                    <a href="https://productivity-apps-bot.vercel.app/" target="_blank" id="plink_2">
+                        <h2 class="text-2xl font-medium p-2 text-gray-800">CyberSecurity ChatBot Web Application</h2>
+                    </a>
+                    <p class="text-gray-700 text-lg p-2">Created a chatbot using Next.js and Groq AI API to address cybersecurity queries. The app delivers accurate, real-time responses with a user-friendly interface, enhancing accessibility to cybersecurity knowledge and support.</p>
+                </div>
+            </div>
+        </div>
+      </section>
+      <!-- skills section -->
+       <section class="container mx-auto mt-12 max-md:w-9/12 max-sm:w-2/4">
+        <h2 class="text-2xl font-bold text-center my-4" id="skills">SKILLS</h2>
+        <div class="grid grid-cols-4 gap-4 max-md:grid-cols-2 max-sm:grid-cols-1 max-lg:grid-cols-3">
+            <div class="w-[250px] h-[300px] bg-gray-100 p-4 rounded-lg">
+                <img src="/public/java.png" class="w-[250px] h-[200px] " alt="skill_badge">
+                <p class="text-2xl font-bold text-center mt-4 text-emerald-900">Java</p>
+            </div>
+            <div class="w-[250px] h-[300px] bg-gray-100 p-4 rounded-lg">
+                <img src="/public/python.jpeg" class="w-[250px] h-[200px]" alt="skill_badge">
+                <p class="text-2xl font-bold text-center mt-4 text-emerald-900">Python</p>
+            </div>
+            <div class="w-[250px] h-[300px] bg-gray-100 p-4 rounded-lg">
+                <img src="/public/js.png" class="w-[250px] h-[200px]"  alt="skill_badge">
+                <p class="text-2xl font-bold text-center mt-4 text-emerald-900">Java Script</p>
+            </div>
+            <div class="w-[250px] h-[300px] bg-gray-100 p-4 rounded-lg">
+                <img src="/public/react.png" class="w-[250px] h-[200px]" alt="skill_badge">
+                <p class="text-2xl font-bold text-center mt-4 text-emerald-900">React</p>
+            </div>
+            <div class="w-[250px] h-[300px] bg-gray-100 p-4 rounded-lg">
+                <img src="/public/next.png" class="w-[250px] h-[200px] " alt="skill_badge">
+                <p class="text-2xl font-bold text-center mt-4 text-emerald-900">Nextjs</p>
+            </div>
+            <div class="w-[250px] h-[300px] bg-gray-100 p-4 rounded-lg">
+                <img src="/public/html.png" class="w-[250px] h-[200px]"  alt="skill_badge">
+                <p class="text-2xl font-bold text-center mt-4 text-emerald-900">HTML</p>
+            </div>
+            <div class="w-[250px] h-[300px] bg-gray-100 p-4 rounded-lg">
+                <img src="/public/css.png" class="w-[250px] h-[200px]"  alt="skill_badge">
+                <p class="text-2xl font-bold text-center mt-4 text-emerald-900">CSS</p>
+            </div>
+            <div class="w-[250px] h-[300px] bg-gray-100 p-4 rounded-lg">
+                <img src="/public/tailwind.jpeg" class="w-[250px] h-[200px]" alt="skill_badge">
+                <p class="text-2xl font-bold text-center mt-4 text-emerald-900">Tailwind</p>
+            </div>
+            <div class="w-[250px] h-[300px] bg-gray-100 p-4 rounded-lg">
+                <img src="/public/spring.png" class="w-[250px] h-[200px]"  alt="skill_badge">
+                <p class="text-2xl font-bold text-center mt-4 text-emerald-900">Spring Boot</p>
+            </div>
+            <div class="w-[250px] h-[300px] bg-gray-100 p-4 rounded-lg">
+                <img src="/public/mysql.png" class="w-[250px] h-[200px]" alt="skill_badge">
+                <p class="text-2xl font-bold text-center mt-4 text-emerald-900">MySQL</p>
+            </div>
+        </div>
+       </section>
+       <!-- Experience  -->
+        <section class="container mx-auto mt-12">
+            <h2 class="text-2xl font-bold text-center my-4" id="experience">EXPERIENCE</h2>
+            <div class="flex max-sm:flex-col">
+                <div class="p-4 bg-slate-50 rounded-lg max-sm:mb-4">
+                    <img src="/public/xzect-logo.svg" class="w-[100px] h-[100px]" alt="intern">
+                    <h2 class="text-xl font-bold text-left mt-4">Fullstack developer intern</h2>
+                    <h3 class="text-xl font-medium text-gray-400">Jun 2024 - Aug 2024 </h3>
+                    <p class="text-lg w-[300px] text-gray-400">Xzect Labs Pvt Ltd, New Dhelhi</p>
+                    <h3 class="text-lg text-gray-400">Mode ~ Remote</h3>
+                    <div class="grid grid-cols-3 gap-4 text-center mt-6 text-lg font-medium">
+                        <h4 class="border-2 border-slate-200 p-2 rounded-lg">Next.js</h4>
+                    <h4 class="border-2 border-slate-200 p-2 rounded-lg">HTML</h4>
+                    <h4 class="border-2 border-slate-200 p-2 rounded-lg">Tailwind</h4>
+                    <h4 class="border-2 border-slate-200 p-2 rounded-lg">Groq AI</h4>
+                    <h4 class="border-2 border-slate-200 p-2 rounded-lg col-span-2">GIT & GitHub</h4>
+                    </div>
+                </div>
+                <div class="bg-slate-50 ml-4 rounded-lg p-4 max-sm:ml-0">
+                    <p class="text-lg font-medium">I have successfully completed a two-month Full Stack Developer internship at Xzect Labs Pvt. Ltd. Throughout this enriching experience, I had the opportunity to work alongside talented professionals, enhancing my skills in Full Stack Development. I focused on creating dynamic and responsive websites using Next.js, which has significantly expanded my technical expertise. <br>
+<br>
+                        During the internship, I also had the chance to work on configuring Large Language Models (LLMs) for chatbots, a project that sharpened my understanding of AI and its applications. Moreover, I gained valuable experience in version control using Git and strengthened my collaborative skills through active communication on Slack. <br>
+                      <br>  
+                        To top it all off, I am proud to have received an official completion certificate from Xzect Labs, marking the successful conclusion of this incredible learning journey. This experience has not only bolstered my technical abilities but also deepened my passion for software development.</p>
+                </div>
+            </div> 
+        </section>
+        <!-- contact information -->
+        <section class="container mx-auto mt-12 bg-slate-900" id="contact">
+            <h2 class="text-2xl font-bold text-white text-center my-4">CONTACT</h2>
+            <div class="w-2/3 mx-auto text-white font-mono text-xl flex items-center justify-center max-sm:flex-col">
+                <div class="flex-1">
+                    <h3>+91 8754713946</h3>
+                    <div><a href="mailto:sri407k@gmail.com" target="_blank">sri407k@gmail.com</a></div>
+                    <div><a href="https://github.com/Srithar407" target="_blank">GitHub</a></div>
+                    <div><a href="https://www.linkedin.com/in/srithar-k-101a06240/" target="_blank" rel="noopener noreferrer">LinkedIn</a></div>
+                    <div><a href="https://www.hackerrank.com/profile/sri407k" target="_blank" rel="noopener noreferrer">Hackerrank</a></div>
+                    <div class="mt-4"><address>3/83,madha kovil street,adhanur,villupuram-605402.</address></div>
+                </div>
+                <div>
+                    <form action="https://api.web3forms.com/submit" class="w-[360px] max-sm:mt-4" method="post">
+                        <input type="hidden" name="access_key" value="71bd744f-22fe-43ce-abce-c6b672a1a1ac">
+                        <input class="w-full p-2 m-2 rounded text-black" type="text" name="name" placeholder="Enter your name" required>
+                        <input class="w-full p-2 m-2 rounded text-black" type="number" name="phone" placeholder="Phone number" required>
+                        <input class="w-full p-2 m-2 rounded text-black" type="email" name="email" placeholder="mail id" required>
+                        <textarea class="w-full p-2 m-2 rounded text-black" name="message" id="umessage" cols="30" rows="4" placeholder="write a message here" required></textarea>
+                        <button class="w-full p-2 m-2 rounded text-black bg-green-500" type="submit">Send</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <h3 class="container mx-auto mb-2 text-center bg-gray-500">No &copy copyrights reserved</h3>
+        </footer>
+</body>
+<script>
+    const plink_1 = document.getElementById('plink-1')
+    const plink_2 = document.getElementById('plink-2')
+    plink_1.addEventListener('click',()=>{
+        document.getElementById('plink_1').click()
+    })
+    plink_2.addEventListener('click',()=>{
+        document.getElementById('plink_2').click()
+    })
+    const icon = document.querySelector('.icon');
+    const menu = document.querySelector('.menu');
+    icon.addEventListener('click',()=>{
+        menu.classList.toggle('show');
+    })
+</script>
+</html>
